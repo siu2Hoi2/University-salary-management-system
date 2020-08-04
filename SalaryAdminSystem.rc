@@ -1,0 +1,687 @@
+// Microsoft Visual C++ generated resource script.
+//
+#pragma code_page(65001)
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\SalaryAdminSystem.rc2""  // 闂?Microsoft Visual C++ 缂傚倸鍊搁崐鎼佸磹閹间礁纾圭憸鐗堝笚閸嬪鏌ｉ幇顒備粵妞ゆ劘濮ら妵鍕箛閸洘顎嶉梺绋块缁夊綊寮诲☉銏犲嵆闁靛鍎查悘鎾绘⒑闂堟稓澧遍柛瀣噽閹?\n"
+    "#include ""l.CHS\\afxres.rc""      // 闂傚倸鍊风粈渚€骞栭銈囩煋闁哄鍤氬ú顏勎у璺猴躬濡嘲顪冮妶鍡欏缂侇喖娴锋竟鏇熺附閸涘﹦鍘遍梺鍝勬储閸斿鑺遍崗绗轰簻?\n"
+    "#include ""l.CHS\\afxprint.rc""    // 闂傚倸鍊烽懗鍫曞箠閹剧粯鍊舵慨妯挎硾缁犳壆绱掔€ｎ厽纭堕柡?闂傚倸鍊烽懗鍫曞箠閹剧粯鍊舵慨妯挎硾缁犳壆绱掔€ｎ厽纭堕柡鍡愬€濋弻娑㈠箛閵婏附鐝ㄧ紓浣瑰敾缂嶄線寮诲☉銏犲嵆闁靛鍎查悵顔尖攽閻愭彃鎮戞俊顐㈠暣楠炲啰娑甸崪浣剐╅梺璇插閸戝綊宕㈡ィ鍐╁殟?\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SalaryAdminSystem.ico"
+
+IDR_SalaryAdminSystemTYPE ICON                    "res\\SalaryAdminSystemDoc.ico"
+
+IDI_HOME_TITLE          ICON                    "res\\title2.ico"
+
+IDI_LOGIN               ICON                    "res\\login.ico"
+
+IDI_EDIT                ICON                    "res\\edit.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "开始(&S)"
+    BEGIN
+        MENUITEM "退出(&X)",                      ID_32771
+    END
+    POPUP "信息(&M)"
+    BEGIN
+        MENUITEM "管理员(&A)",                     ID_32772
+        MENUITEM "教师(&J)",                      ID_32773
+        MENUITEM "行政人员(&R)",                    ID_32774
+        MENUITEM "实验技术员(&T)",                   ID_32775
+        MENUITEM "教师兼职实验技术员(&D)",               ID_32776
+        MENUITEM "行政人员兼职教师(&Z)",                ID_32777
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 高校工资管理系统(&A)...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 233, 126
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SalaryAdminSystem"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,36,18,20,20
+    LTEXT           "高校工资管理系统     版本 2.1",IDC_STATIC,34,47,120,12,SS_NOPREFIX
+    DEFPUSHBUTTON   "确定",IDOK,176,105,50,14,WS_GROUP
+    LTEXT           "(C) 2019  Michael Chan。 保留所有权利",IDC_STATIC,34,64,144,16
+END
+
+DIALOG_LOGIN DIALOGEX 0, 0, 260, 120
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登录"
+FONT 9, "微软雅黑", 400, 0, 0x86
+BEGIN
+    LTEXT           "用户名：",IDC_STATIC,76,27,35,11
+    LTEXT           "密码：",IDC_STATIC,76,51,35,11
+    EDITTEXT        IDC_EDIT1,113,26,67,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,113,49,67,12,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "登录",IDC_BUTTON1,42,80,55,18
+    PUSHBUTTON      "取消",IDC_BUTTON2,163,80,55,18
+END
+
+IDD_CDisplayView DIALOG 0, 0, 320, 200
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "MS Shell Dlg"
+BEGIN
+    LTEXT           "TODO:  将窗体控件放置在此对话框上。",IDC_STATIC,24,42,280,8
+END
+
+DIALOG_USER DIALOGEX 0, 0, 370, 239
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "管理员信息",IDC_STATIC,105,16,170,66
+    GROUPBOX        "修改密码",IDC_STATIC,103,102,172,66
+    LTEXT           "身份：",IDC_STATIC,132,38,34,11
+    LTEXT           "用户名：",IDC_STATIC,132,56,33,11
+    LTEXT           "新密码：",IDC_STATIC,127,123,41,11
+    LTEXT           "确认密码：",IDC_STATIC,127,143,42,11
+    PUSHBUTTON      "确定",IDC_BUTTON1,75,189,60,20
+    EDITTEXT        IDC_EDIT1,169,36,80,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,169,54,80,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT3,169,122,78,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,169,140,78,12,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "取消",IDC_BUTTON2,234,189,60,20
+END
+
+IDD_ADD DIALOGEX 0, 0, 495, 240
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_EDIT3,290,41,166,73,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "当前信息",IDC_STATIC4,284,28,178,92
+    COMBOBOX        IDC_COMBO1,98,50,93,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "人员选择：",IDC_STATIC,57,52,38,13
+    LTEXT           "姓名：",IDC_STATIC,57,91,37,13
+    LTEXT           "编号：",IDC_STATIC,57,71,37,13
+    LTEXT           "工作量：",IDC_STATIC,57,112,37,13
+    EDITTEXT        IDC_EDIT1,98,89,90,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,98,69,90,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,98,110,90,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "录入",IDC_BUTTON2,52,141,58,17
+    PUSHBUTTON      "清空",IDC_BUTTON9,163,141,58,17
+    GROUPBOX        "录入信息",IDC_STATIC2,37,26,206,176
+    LTEXT           "录入的信息将同步到文件中，工资自动根据预先设计生成",IDC_STATIC,287,147,176,19
+END
+
+IDD_EDIT DIALOGEX 0, 0, 497, 235
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "修改信息",IDC_STATIC,36,29,215,172
+    PUSHBUTTON      "确认修改",IDC_BUTTON7,56,161,58,15
+    PUSHBUTTON      "清空",IDC_BUTTON8,165,160,57,15
+    EDITTEXT        IDC_EDIT3,297,45,163,74,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "显示信息",IDC_STATIC4,290,32,178,94
+    LTEXT           "姓名：",IDC_STATIC8,67,95,36,13
+    LTEXT           "编号：",IDC_STATIC15,67,75,37,13
+    LTEXT           "新工作量：",IDC_STATIC16,67,117,43,13
+    LTEXT           "新工资：",IDC_STATIC17,67,137,38,13
+    EDITTEXT        IDC_EDIT1,113,93,103,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,114,73,102,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,113,114,103,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,113,135,103,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,113,54,103,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "人员选择：",IDC_STATIC,67,56,38,11
+    LTEXT           "根据编号和姓名定位至某人员并修改其相关信息",IDC_STATIC,291,147,176,19
+END
+
+IDD_SEARCH DIALOGEX 0, 0, 491, 242
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_EDIT3,288,46,171,75,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "查询结果",IDC_STATIC4,282,30,184,97
+    LTEXT           "人员选择：",IDC_STATIC,64,60,43,10
+    LTEXT           "姓名：",IDC_STATIC,65,104,34,12
+    LTEXT           "编号：",IDC_STATIC,65,82,35,10
+    PUSHBUTTON      "查询",IDC_BUTTON2,57,131,56,18
+    PUSHBUTTON      "清空",IDC_BUTTON9,159,131,56,18
+    GROUPBOX        "查询信息",IDC_STATIC2,37,28,211,188
+    COMBOBOX        IDC_COMBO1,113,58,103,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,113,102,103,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,113,80,103,12,ES_AUTOHSCROLL
+    LTEXT           "根据编号和姓名查找文件中的人员信息",IDC_STATIC,287,147,176,19
+END
+
+IDD_DELETE DIALOGEX 0, 0, 497, 245
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x86
+BEGIN
+    COMBOBOX        IDC_COMBO1,103,51,102,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "人员选择：",IDC_STATIC,61,53,39,10
+    LTEXT           "姓名：",IDC_STATIC,62,96,29,12
+    EDITTEXT        IDC_EDIT1,103,93,103,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "删除",IDC_BUTTON2,63,122,53,17
+    PUSHBUTTON      "清空",IDC_BUTTON9,167,122,54,17
+    GROUPBOX        "删除信息",IDC_STATIC2,37,30,212,183
+    LTEXT           "编号：",IDC_STATIC,62,74,33,11
+    EDITTEXT        IDC_EDIT2,103,72,103,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,294,46,169,74,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "已删除信息",IDC_STATIC4,287,30,183,97
+    LTEXT           "选择性删除相应文件中的信息，注意删除操作不可逆",IDC_STATIC,291,150,176,19
+END
+
+TEACHER_INFO DIALOGEX 0, 0, 447, 254
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x0
+BEGIN
+    LTEXT           "教师信息",IDC_STATIC,32,17,110,13
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,54,34,320,196
+END
+
+TECH_INFO DIALOGEX 0, 0, 400, 256
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x0
+BEGIN
+    LTEXT           "实验技术员信息",IDC_STATIC,23,18,64,11
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,47,38,320,196
+END
+
+ADMIN_INFO DIALOGEX 0, 0, 423, 255
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x0
+BEGIN
+    LTEXT           "行政人员信息",IDC_STATIC,24,16,77,13
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,49,36,320,196
+END
+
+TEACHER_TECH_INFO DIALOGEX 0, 0, 416, 259
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x0
+BEGIN
+    LTEXT           "教师兼职实验技术员信息",IDC_STATIC,31,18,88,12
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,51,39,320,196
+END
+
+ADMIN_TEACHER_INFO DIALOGEX 0, 0, 402, 259
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "微软雅黑", 400, 0, 0x0
+BEGIN
+    LTEXT           "行政人员兼职教师信息",IDC_STATIC,24,14,78,11
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,48,34,320,196
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,1,0,1
+ PRODUCTVERSION 2,1,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "Michael Chan"
+            VALUE "FileDescription", "SalaryAdminSystem"
+            VALUE "FileVersion", "2.1.0.1"
+            VALUE "InternalName", "SalaryAdminSystem.exe"
+            VALUE "LegalCopyright", "Michael Chan。  保留所有权利。"
+            VALUE "OriginalFilename", "SalaryAdminSystem.exe"
+            VALUE "ProductName", "高校工资管理系统"
+            VALUE "ProductVersion", "2.1.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    DIALOG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_CDisplayView, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    DIALOG_USER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 488
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 233
+    END
+
+    IDD_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 490
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 228
+    END
+
+    IDD_SEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 484
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_DELETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 490
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 238
+    END
+
+    TEACHER_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 440
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    TECH_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 393
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 249
+    END
+
+    ADMIN_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 416
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    TEACHER_TECH_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 409
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+
+    ADMIN_TEACHER_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+DIALOG_LOGIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+DIALOG_USER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ADD AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_EDIT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_SEARCH AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DELETE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+TEACHER_INFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+TECH_INFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+ADMIN_INFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+TEACHER_TECH_INFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+ADMIN_TEACHER_INFO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。  请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "SalaryAdminSystem\n\nSalaryAdminSyst\n\n\nSalaryAdminSystem.Document\nSalaryAdminSystem.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "SalaryAdminSystem"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "创建新文档\n新建"
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+    ID_FILE_PAGE_SETUP      "更改打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "更改打印机选项和打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_DIRECT    "使用当前选项打印活动文档\n快速打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权信息\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除所选内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制所选内容，将其放入剪贴板\n复制"
+    ID_EDIT_CUT             "剪切所选内容，将其放入剪贴板\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "重做上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "将窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到上一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预览"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\SalaryAdminSystem.rc2"  // 闂?Microsoft Visual C++ 缂傚倸鍊搁崐鎼佸磹閹间礁纾圭憸鐗堝笚閸嬪鏌ｉ幇顒備粵妞ゆ劘濮ら妵鍕箛閸洘顎嶉梺绋块缁夊綊寮诲☉銏犲嵆闁靛鍎查悘鎾绘⒑闂堟稓澧遍柛瀣噽閹?
+#include "l.CHS\afxres.rc"      // 闂傚倸鍊风粈渚€骞栭銈囩煋闁哄鍤氬ú顏勎у璺猴躬濡嘲顪冮妶鍡欏缂侇喖娴锋竟鏇熺附閸涘﹦鍘遍梺鍝勬储閸斿鑺遍崗绗轰簻?
+#include "l.CHS\afxprint.rc"    // 闂傚倸鍊烽懗鍫曞箠閹剧粯鍊舵慨妯挎硾缁犳壆绱掔€ｎ厽纭堕柡?闂傚倸鍊烽懗鍫曞箠閹剧粯鍊舵慨妯挎硾缁犳壆绱掔€ｎ厽纭堕柡鍡愬€濋弻娑㈠箛閵婏附鐝ㄧ紓浣瑰敾缂嶄線寮诲☉銏犲嵆闁靛鍎查悵顔尖攽閻愭彃鎮戞俊顐㈠暣楠炲啰娑甸崪浣剐╅梺璇插閸戝綊宕㈡ィ鍐╁殟?
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CInfoFile">
+    <Position X="5.25" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AkQAAgAAAAAAKAAwABQBAgAAEAQCQgAgIIAAIAAAIAE=</HashCode>
+      <FileName>CInfoFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDisplayView">
+    <Position X="1.25" Y="0.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CDisplayView::__unnamed_enum_0006_1">
+        <TypeIdentifier>
+          <NewMemberFileName>CDisplayView.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACBAAgAAAAUAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CDisplayView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Teacher">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAEAAAIAAAAAAAAAgA=</HashCode>
+      <FileName>CInfoFile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tech">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAEAAAIAAAAAAAAAgA=</HashCode>
+      <FileName>CInfoFile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Admin">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CInfoFile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TeachAndTech">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAEAAAIAAAAAAAAAgA=</HashCode>
+      <FileName>CInfoFile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AdminAndTeach">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAgAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CInfoFile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
